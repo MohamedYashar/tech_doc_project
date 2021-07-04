@@ -48,7 +48,7 @@ IT PREVENTS IN OVERLAPPING OF CONTENTS TO NEXT PAGE */
 
 /*  IMAGE FO THE RIGHT MARGIN */
 #imgbground{
-    background-image: url(../img/moutains.jpg);
+    background-image: url(moutains.jpg);
     background-repeat: no-repeat;
     background-size: 1300px;
 }
