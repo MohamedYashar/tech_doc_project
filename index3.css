@@ -1,0 +1,83 @@
+body{
+  padding: 10px 20px 20px 30px;
+  padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}
+
+/* BOX SIZING LOCKS THE MARGING ALLOWS TO APPLY PADDING INSIDE GIVEN WDITH
+IT PREVENTS IN OVERLAPPING OF CONTENTS TO NEXT PAGE */
+
+*{
+    box-sizing: border-box;
+}
+
+#spancolorred{
+    color: red;
+}
+
+.Totalmargin{
+    margin: 20px 60px;
+    width: auto;
+    
+   
+    
+}
+
+.leftmargin{
+    float: left;
+    line-height: 1;
+    background: rgb(243, 241, 241);
+    width: 20%;
+    text-align: left;
+    padding-left: 30px;
+    
+    
+
+}
+
+.Rightmargin{
+
+    float: right;
+    line-height: 2.5;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+}
+
+/*  IMAGE FO THE RIGHT MARGIN */
+#imgbground{
+    background-image: url(../img/moutains.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+
+ /* HOVER COMMENT AS BELOW */
+.bghover :hover{
+
+    background-color: lightgreen;
+    cursor: pointer;
+    padding-left: 20px;
+    
+
+}
+
+.bghover{
+    padding-left: 20px;
+}
+
+
+
+#examplebg{
+    background-color: rgb(243, 241, 241);
+    padding-left: 10px;
+}
+
+#bodyexamplebg{
+    background-color: white;
+    padding-left: 30px;
+}
+
+
